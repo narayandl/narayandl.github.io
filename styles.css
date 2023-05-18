@@ -1,0 +1,13 @@
+.container{
+  display:grid;
+  height:100vh;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-areas:
+    "nav nav nav nav"
+    "sidebar main main main"
+}
+
+nav{
+  background: #a7ffeb;
+  grid-area: nav;
+}
