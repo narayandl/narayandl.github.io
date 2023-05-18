@@ -5,6 +5,7 @@
   grid-template-areas:
     "nav nav nav nav"
     "sidebar main content3 main"
+    "sidebar content4 content5 content6"
 }
 
 nav{
