@@ -4,7 +4,7 @@
   grid-template-columns: 1fr 1fr 1fr 1fr;
   grid-template-areas:
     "nav nav nav nav"
-    "sidebar main main main"
+    "sidebar main content3 main"
 }
 
 nav{
