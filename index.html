@@ -1,4 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+.container{
+  display:grid;
+  height:100vh;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-areas:
+    "nav nav nav nav"
+    "sidebar gambolGaming rgbGeek tree"
+    "sidebar rgbGeek tree gambolGaming"
+    "sidebar tree gambolGaming rgbGeek"
+    "sidebar gambolGaming rgbGeek tree"
+}
 
+nav{
+  background: #a7ffeb;
+  grid-area: nav;
+}
+</style>
+</head>
 <head>
 <link rel="stylesheet" href="styles.css">
 </head>
@@ -15,3 +36,4 @@
   <div id="tree"><img src="images/tree.gif" alt="2Italian Trulli"></div>
   <div id="gambolGaming"><img src="images/gambol_gaming.gif" alt="3talian Trulli"></div>
 </div>
+</html>
