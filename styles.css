@@ -4,9 +4,10 @@
   grid-template-columns: 1fr 1fr 1fr 1fr;
   grid-template-areas:
     "nav nav nav nav"
-    "sidebar main content3 main"
-    "sidebar content4 content5 content6"
-    "sidebar content1 content2 content7"
+    "sidebar gambolGaming rgbGeek tree"
+    "sidebar rgbGeek tree gambolGaming"
+    "sidebar tree gambolGaming rgbGeek"
+    "sidebar gambolGaming rgbGeek tree"
 }
 
 nav{
